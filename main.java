@@ -5,17 +5,35 @@ class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        System.out.print("Digite um numeor: ");
-        double num = scanner.nextDouble();
+        System.out.print("Digite um numero: ");
+        double num1 = scanner.nextDouble();
         scanner.nextLine();
-        System.out.print("Escolha entre (* / % / + / -):");
+        System.out.print("Escolha uma operacao (+ - * / %): ");
         String op = scanner.nextLine();
-        System.out.print("Escolha outro numeor: ");
+        System.out.print("Escolha outro numero: ");
         double num2 = scanner.nextDouble();
 
         switch (op) {
-                case "+": System.out.printf("%.f2 %c %.f2 = %.f2", num, op, num2, num2);
+                case "+":
+                    double soma = num1 + num2;
+                    System.out.printf("%.2f + %.2f = %.2f", num1, num2, soma);
+                    break;
+                case "-":
+                    double menos = num1 - num2;
+                    System.out.printf("%.2f - %.2f = %.2f", num1, num2, menos);
+                    break;
+                case "*":
+                    double mult = num1 * num2;
+                    System.out.printf("%.2f * %.2f = %.2f", num1, num2, mult);
+                    break;
+                case "/":
+                    double div = num1 / num2;
+                    System.out.printf("%.2f / %.2f = %.2f", num1, num2, div);
+                    break;
+                case "%":
+                    double porc = num1 % num2;
+                    System.out.printf("%.2f %% %.2f = %.2f", num1, num2, porc);
+                    break;
         }
-        //System.out.printf("Numero digitado foi: %.2f", num);
     }
 }
