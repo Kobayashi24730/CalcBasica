@@ -1,17 +1,17 @@
 # 🧮 Calculadora Simples em Java
 
-Uma aplicação de terminal desenvolvida em **Java** para realizar operações matemáticas básicas e cálculo de resto da divisão (módulo). Este projeto foi criado com o objetivo de praticar conceitos fundamentais da linguagem, como entrada e saída de dados, formatação e a estrutura condicional `switch`.
+Uma aplicação de terminal desenvolvida em **Java** para realizar operações matemáticas básicas e módulo/resto da divisão. Este projeto foi criado com o objetivo de praticar conceitos fundamentais da linguagem, como entrada de dados via `Scanner`, formatação com `printf` e a estrutura condicional `switch`.
 
 ---
 
 ## 🚀 Funcionalidades
 
-O sistema permite inserir dois números decimais e escolher uma das seguintes operações:
+O sistema permite ao usuário escolher entre as seguintes operações:
 * **Soma** (`+`)
 * **Subtração** (`-`)
 * **Multiplicação** (`*`)
 * **Divisão** (`/`)
-* **Módulo / Resto da divisão** (`%`)
+* **Resto da Divisão / Módulo** (`%`)
 
 ---
 
@@ -19,7 +19,7 @@ O sistema permite inserir dois números decimais e escolher uma das seguintes op
 
 Antes de começar, você vai precisar ter instalado em sua máquina:
 * **Java JDK** (versão 11 ou superior recomendada)
-* Uma IDE de sua preferência (VS Code, IntelliJ IDEA, Eclipse) ou o terminal.
+* Uma IDE de sua preferência (Eclipse, IntelliJ IDEA, VS Code) ou o terminal.
 
 ---
 
